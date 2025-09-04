@@ -1,0 +1,15 @@
+print ("計算最終成績")
+score=input ("請輸入分數:")
+sc=int(score)
+if (sc >= 90 and sc <= 100):
+    print("恭喜你得A " + str(sc)+"分")
+elif (sc >=80 and sc <=89):
+    print("B")
+elif (sc >=70 and sc <=79 ):
+    print ("C")
+elif (sc >=60 and sc <=69):
+    print ("D")
+elif (sc >=60 and sc <=1):
+    print ("E")
+else:
+    print ("超過分數規範範圍")
